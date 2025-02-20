@@ -30,4 +30,5 @@ var ogrenci2_yas=2025-2000;
 var ogrenci2_MatematikNotlari = [80, 85, 90];
 var basarilimi = (ogrenci2_MatematikNotlari[0] + ogrenci2_MatematikNotlari[1] + ogrenci2_MatematikNotlari[2]) / 3 >= 50;
 var ortalama= (ogrenci2_MatematikNotlari[0] + ogrenci2_MatematikNotlari[1] + ogrenci2_MatematikNotlari[2]) / 3;
+
 console.log(ogrenci2_Adi + " " + ogrenci2_yas + " " +ortalama+ " " + basarilimi);
