@@ -23,6 +23,6 @@ sonuc = kursAdi.trimStart(); // Başındaki boşlukları siler
 
 sonuc = kursAdi.indexOf("Web"); // Aranan kelimenin başlangıç indexini verir
 sonuc = kursAdi.split(" "); // Boşluk ile ayırarak diziye çevirir
-sonuc = kursAdi.split(" ")[1]; // Boşluk ile ayırarak diziye çevirir ve 1. elemanı alır
+sonuc = kursAdi.split(" ")[1]; // Boşluk ile ayırarak 2. elemanı alır
 
 console.log(sonuc);
